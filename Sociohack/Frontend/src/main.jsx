@@ -5,10 +5,10 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import Home from '../src/pages/home.jsx'
 import './index.css'
 import LoginPage from './pages/LoginPage.jsx'
 import SignupPage from './pages/SignupPage.jsx'
+import Home from './pages/home.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
